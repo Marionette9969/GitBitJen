@@ -86,7 +86,7 @@ try:
 
             # Check Number
 
-            if number_value is not None and number_value >= 0.85:
+            if number_value is not None and number_value >= 0.25:
                 message = f"Kafka Message {number_value} Exceed Allowed Point, Immediate Checking Advised"
                 send_telegram_message(message)
                 print(f"Message sent to Telegram: {message}")
