@@ -36,7 +36,7 @@ CHAT_ID='6024022767'
 
 #   SENDING MESSAGE TO TELEGRAM
 def send_telegram_message(message):
-    url = f'https://api.telegram.org/bot7378325824:AAGP3baSLxnwYOaWXoBMgUisVwTNkAe1ok8/sendMessage'
+    url = f'https://api.telegram.org/bot7378325824:AAGP3baSLxnwYOaWXoBMgUisVwTNkAe1ok8/sendMessage' # ADD COMMENT FOR BITBUCKET TESTING
     params = {
         'chat_id':CHAT_ID,
         'text': message,
